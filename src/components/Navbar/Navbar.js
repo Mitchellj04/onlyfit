@@ -1,5 +1,6 @@
 import React from 'react'
 import images from '../../constants/images'
+import './Navbar.css'
 
 export const Navbar = () => {
   return (
@@ -11,7 +12,7 @@ export const Navbar = () => {
         <nav className='app__navbar'>
             <div className='app__navbar_menu'>
                 <ul className='app__navbar_ul'>
-                    <li className='app__navbar_links'></li>
+                    <li className='app__navbar_links'><a href=''>Home</a></li>
                 </ul>
 
             </div>
