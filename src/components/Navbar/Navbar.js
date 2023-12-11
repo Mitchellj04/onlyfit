@@ -1,6 +1,7 @@
 import React from 'react'
 import images from '../../constants/images'
 import './Navbar.css'
+import Sidebar from '../Sidebar/Sidenav'
 
 export const Navbar = () => {
   return (
